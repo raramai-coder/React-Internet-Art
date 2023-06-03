@@ -3,6 +3,7 @@ import TriHeader from "../components/TriHeader";
 import NavBar from "../components/NavBar";
 import AIExhibit from "../components/AIExhibit";
 import About from "../components/About";
+import BlogHero from "../components/BlogHero";
 
 const Home = () => {
 	return (
@@ -11,6 +12,7 @@ const Home = () => {
 			<TriHeader />
 			<AIExhibit />
 			<About />
+			<BlogHero />
 		</div>
 	);
 };
