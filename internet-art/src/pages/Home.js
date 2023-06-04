@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar";
 import AIExhibit from "../components/AIExhibit";
 import About from "../components/About";
 import BlogHero from "../components/BlogHero";
+import DesignHero from "../components/DesignHero";
 
 const Home = () => {
 	return (
@@ -13,6 +14,7 @@ const Home = () => {
 			<AIExhibit />
 			<About />
 			<BlogHero />
+			<DesignHero />
 		</div>
 	);
 };

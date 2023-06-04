@@ -208,6 +208,53 @@ h3 {
 
 .blog-hero {
 	text-align: center;
-	margin-bottom: 15px;
+	margin-bottom: 15vh;
 }
+/* #endregion */
+
+/* #region Design Hero */
+
+.design-container {
+	display: flex;
+	justify-content: space-evenly;
+	/* gap: 20px; */
+}
+
+.design-hero {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.wireframes-container {
+	background-color: white;
+	width: 80vw;
+	height: 45vh;
+	border-radius: 20%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin-top: 7.5%;
+}
+
+.style-guide-container {
+	background-color: white;
+	width: 80vw;
+	height: 45vh;
+	border-radius: 40%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin-top: 20%;
+}
+
+.inspiration-container {
+	background-color: white;
+	width: 80vw;
+	height: 45vh;
+	border-radius: 10%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
 /* #endregion */
