@@ -7,6 +7,7 @@ import BlogHero from "../components/BlogHero";
 import DesignHero from "../components/DesignHero";
 import CreateHero from "../components/CreateHero";
 import ArtistsHero from "../components/ArtistsHero";
+import Footer from "../components/Footer";
 
 const Home = () => {
 	return (
@@ -19,6 +20,7 @@ const Home = () => {
 			<DesignHero />
 			<CreateHero />
 			<ArtistsHero />
+			<Footer />
 		</div>
 	);
 };

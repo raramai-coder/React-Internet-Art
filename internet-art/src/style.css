@@ -357,3 +357,19 @@ h3 {
 }
 
 /* #endregion */
+
+/* #region Footer */
+.footer-main-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-secondary-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 5vw;
+}
+
+/* #endregion */
