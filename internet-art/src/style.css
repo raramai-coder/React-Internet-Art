@@ -76,6 +76,7 @@ h3 {
 	justify-content: space-between;
 	width: 90vw;
 	margin-bottom: 15px;
+	/* margin: auto; */
 }
 
 .nav-links {
@@ -84,7 +85,7 @@ h3 {
 }
 
 .nav-divider {
-	width: 95vw;
+	width: 100vw;
 	margin: auto;
 	height: 2px;
 	background-color: var(--primaryRed);
@@ -373,3 +374,13 @@ h3 {
 }
 
 /* #endregion */
+
+/* #region About Page */
+
+.about-page-container {
+	display: flex;
+	align-items: center;
+	margin-top: 10vh;
+}
+
+/* endregion */
