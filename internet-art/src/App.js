@@ -1,4 +1,5 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+//import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Artists from "./pages/Artists";
 import About from "./pages/About";
@@ -10,7 +11,7 @@ import NoPage from "./pages/NoPage";
 
 function App() {
 	return (
-		<BrowserRouter>
+		<Router>
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="artists" element={<Artists />} />
@@ -21,7 +22,7 @@ function App() {
 				<Route path="create" element={<Create />} />
 				<Route path="*" element={<NoPage />} />
 			</Routes>
-		</BrowserRouter>
+		</Router>
 	);
 }
 
