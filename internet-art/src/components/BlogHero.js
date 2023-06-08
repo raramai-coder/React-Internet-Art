@@ -3,7 +3,7 @@ import BlogHeroCircle from "./BlogHeroCircle";
 
 const BlogHero = () => {
 	return (
-		<div className="blog-hero">
+		<div className="component-container blog-hero">
 			<h1>Blog</h1>
 			<div className="blog-circles-row row-1">
 				<BlogHeroCircle color={"green"} />

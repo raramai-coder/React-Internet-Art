@@ -5,6 +5,7 @@ import AIExhibit from "../components/AIExhibit";
 import About from "../components/About";
 import BlogHero from "../components/BlogHero";
 import DesignHero from "../components/DesignHero";
+import CreateHero from "../components/CreateHero";
 
 const Home = () => {
 	return (
@@ -15,6 +16,7 @@ const Home = () => {
 			<About />
 			<BlogHero />
 			<DesignHero />
+			<CreateHero />
 		</div>
 	);
 };

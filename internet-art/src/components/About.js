@@ -2,21 +2,23 @@ import PropTypes from "prop-types";
 
 const About = ({ label, description }) => {
 	return (
-		<section className="about-main-container">
-			<div className="about-description">
-				<p>{description}</p>
-			</div>
-			<div className="about-container">
-				<h1 className="about-label">{label}</h1>
-				<div className="about-image-container">
-					<img
-						src={require("../assets/Ellipse 3.png")}
-						className="about-image"
-						alt="AI generated artwork for about Page"
-					></img>
+		<div className="component-container">
+			<section className="about-main-container">
+				<div className="about-description">
+					<p>{description}</p>
 				</div>
-			</div>
-		</section>
+				<div className="about-container">
+					<h1 className="about-label">{label}</h1>
+					<div className="about-image-container">
+						<img
+							src={require("../assets/Ellipse 3.png")}
+							className="about-image"
+							alt="AI generated artwork for about Page"
+						></img>
+					</div>
+				</div>
+			</section>
+		</div>
 	);
 };
 

@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const AIExhibit = ({ country, description, artist }) => {
 	return (
-		<section className="ai-exhibit-container">
+		<section className="ai-exhibit-container component-container">
 			<div className="ai-art-container">
 				<h1 className="ai-country-name">{country}</h1>
 				<div className="ai-image-container">
