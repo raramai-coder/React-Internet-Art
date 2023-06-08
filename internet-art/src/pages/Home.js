@@ -6,6 +6,7 @@ import About from "../components/About";
 import BlogHero from "../components/BlogHero";
 import DesignHero from "../components/DesignHero";
 import CreateHero from "../components/CreateHero";
+import ArtistsHero from "../components/ArtistsHero";
 
 const Home = () => {
 	return (
@@ -17,6 +18,7 @@ const Home = () => {
 			<BlogHero />
 			<DesignHero />
 			<CreateHero />
+			<ArtistsHero />
 		</div>
 	);
 };
