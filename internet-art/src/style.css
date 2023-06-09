@@ -373,6 +373,11 @@ h3 {
 	gap: 5vw;
 }
 
+.footer-component {
+	position: absolute;
+	bottom: 0;
+}
+
 /* #endregion */
 
 /* #region About Page */

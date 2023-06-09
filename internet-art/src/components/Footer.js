@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
-		<div>
+		<div className="footer-component">
 			<div className="header-bars"></div>
 			<div className="footer-main-container">
 				<h4>Copyright 2023 Raramainashe Wadaya</h4>
@@ -11,13 +11,13 @@ const Footer = () => {
 				<div className="footer-secondary-container">
 					<FaRegHeart />
 					<div>
-						<Link to={"create"}>
+						<Link to={"/create"}>
 							<h4>create</h4>
 						</Link>
-						<Link to={"about"}>
+						<Link to={"/about"}>
 							<h4>about</h4>
 						</Link>
-						<Link to={"blog"}>
+						<Link to={"/blog"}>
 							<h4>blog</h4>
 						</Link>
 					</div>
