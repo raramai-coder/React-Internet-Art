@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Button = ({ label }) => {
 	const onClick = () => {
 		console.log("click");
@@ -8,6 +10,14 @@ const Button = ({ label }) => {
 			{label}
 		</button>
 	);
+};
+
+Button.defaultProps = {
+	label: "See More",
+};
+
+Button.propTypes = {
+	label: PropTypes.string.isRequired,
 };
 
 export default Button;

@@ -374,7 +374,7 @@ h3 {
 }
 
 .footer-component {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 }
 
@@ -388,4 +388,40 @@ h3 {
 	margin-top: 10vh;
 }
 
-/* endregion */
+/* #endregion */
+
+/* #region Product */
+
+.product-image-container {
+	background-color: var(--yellow);
+	/* width: 25vw; */
+	height: 35vh;
+	border-radius: 2.5vw;
+	padding: 5vh 1vh 1vh 5vh;
+}
+
+.product-details-container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5vh;
+	/* width: 25vw; */
+	margin-top: 15px;
+	align-items: center;
+}
+
+.product-button {
+	width: 40%;
+}
+
+.product-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.product-holder {
+	display: flex;
+	width: 100vw;
+	margin-top: 20px;
+}
+/* #endregion */
