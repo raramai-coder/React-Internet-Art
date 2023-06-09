@@ -373,6 +373,11 @@ h3 {
 	gap: 5vw;
 }
 
+.footer {
+	bottom: 0;
+	position: fixed;
+}
+
 /* #endregion */
 
 /* #region About Page */
