@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
-		<Footer className="footer">
+		<div>
 			<div className="header-bars"></div>
 			<div className="footer-main-container">
 				<h4>Copyright 2023 Raramainashe Wadaya</h4>
@@ -23,7 +23,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-		</Footer>
+		</div>
 	);
 };
 

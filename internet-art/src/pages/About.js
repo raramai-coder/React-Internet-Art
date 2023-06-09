@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Header from "../components/Header";
 import BlogHeroCircle from "../components/BlogHeroCircle";
-import Footer from "../components/Footer";
 
 const About = () => {
 	return (
@@ -22,8 +21,6 @@ const About = () => {
 				</p>
 				<BlogHeroCircle />
 			</div>
-
-			<Footer />
 		</div>
 	);
 };
