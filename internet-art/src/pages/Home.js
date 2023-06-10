@@ -8,6 +8,7 @@ import DesignHero from "../components/DesignHero";
 import CreateHero from "../components/CreateHero";
 import ArtistsHero from "../components/ArtistsHero";
 import Footer from "../components/Footer";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Home = () => {
 	return (
@@ -20,6 +21,7 @@ const Home = () => {
 			<DesignHero />
 			<CreateHero />
 			<ArtistsHero />
+			<ScrollToTop />
 			<Footer />
 		</div>
 	);
