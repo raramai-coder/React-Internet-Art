@@ -1,15 +1,37 @@
 {
   "files": {
-    "main.css": "/React-Internet-Art/static/css/main.e5a55382.css",
-    "main.js": "/React-Internet-Art/static/js/main.7d0a88e3.js",
+    "main.css": "/React-Internet-Art/static/css/main.88740df7.css",
+    "main.js": "/React-Internet-Art/static/js/main.b0e71ba6.js",
+    "static/media/wireframe1.png": "/React-Internet-Art/static/media/wireframe1.29cc9b566168d5600075.png",
+    "static/media/Picture2.png": "/React-Internet-Art/static/media/Picture2.24c6e00085bc604fd621.png",
+    "static/media/wireframe2.png": "/React-Internet-Art/static/media/wireframe2.7daa492f96ca61ea4c6c.png",
+    "static/media/wireframe3.png": "/React-Internet-Art/static/media/wireframe3.a2e8f67360b3f0a5c37e.png",
+    "static/media/wireframe6.png": "/React-Internet-Art/static/media/wireframe6.2a43bd2a3c12d216cd0c.png",
+    "static/media/wireframe9.png": "/React-Internet-Art/static/media/wireframe9.1a43140693a8924f522e.png",
+    "static/media/wireframe5.png": "/React-Internet-Art/static/media/wireframe5.c4e4b9897063217e1cc6.png",
     "static/media/Backgoround 1.png": "/React-Internet-Art/static/media/Backgoround 1.b77eaa42076545ce6513.png",
+    "static/media/Picture1.png": "/React-Internet-Art/static/media/Picture1.d63dd1d9c646ab0b8e90.png",
+    "static/media/Picture4.png": "/React-Internet-Art/static/media/Picture4.a79b4f75596313adef15.png",
+    "static/media/wireframe7.png": "/React-Internet-Art/static/media/wireframe7.f86e588754cd8cccd6a3.png",
+    "static/media/wireframe8.png": "/React-Internet-Art/static/media/wireframe8.29e0cf5d2f60d7043636.png",
+    "static/media/maxhosa3.webp": "/React-Internet-Art/static/media/maxhosa3.a6eca44ec01aa040d241.webp",
+    "static/media/pattern3.jfif": "/React-Internet-Art/static/media/pattern3.0b1a37f2c1ae80287e11.jfif",
+    "static/media/wireframe4.png": "/React-Internet-Art/static/media/wireframe4.dd6c63cb32b44e74c876.png",
+    "static/media/maxhosa4.webp": "/React-Internet-Art/static/media/maxhosa4.f2673205028e373854b9.webp",
+    "static/media/pattern2.webp": "/React-Internet-Art/static/media/pattern2.211f7dfef3fffad12003.webp",
+    "static/media/Illustrations Patterns 1.png": "/React-Internet-Art/static/media/Illustrations Patterns 1.5cd353eb9b93e9bf100c.png",
+    "static/media/Picture3.png": "/React-Internet-Art/static/media/Picture3.eebd04db29de1317dd95.png",
+    "static/media/Illustrations Patterns.png": "/React-Internet-Art/static/media/Illustrations Patterns.e3340d0eec51d8d9a154.png",
+    "static/media/pattern1.jpg": "/React-Internet-Art/static/media/pattern1.f7482ea27d0eec15a89d.jpg",
     "static/media/Ellipse 3.png": "/React-Internet-Art/static/media/Ellipse 3.de49d7c85b7d5d23f293.png",
+    "static/media/maxhosa1.webp": "/React-Internet-Art/static/media/maxhosa1.2e43efa7eb8fed0ddedf.webp",
+    "static/media/maxhosa2.webp": "/React-Internet-Art/static/media/maxhosa2.2bd0cde83818c05418f0.webp",
     "index.html": "/React-Internet-Art/index.html",
-    "main.e5a55382.css.map": "/React-Internet-Art/static/css/main.e5a55382.css.map",
-    "main.7d0a88e3.js.map": "/React-Internet-Art/static/js/main.7d0a88e3.js.map"
+    "main.88740df7.css.map": "/React-Internet-Art/static/css/main.88740df7.css.map",
+    "main.b0e71ba6.js.map": "/React-Internet-Art/static/js/main.b0e71ba6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5a55382.css",
-    "static/js/main.7d0a88e3.js"
+    "static/css/main.88740df7.css",
+    "static/js/main.b0e71ba6.js"
   ]
 }
