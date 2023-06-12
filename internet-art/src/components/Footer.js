@@ -6,19 +6,19 @@ const Footer = () => {
 		<div className="footer-component">
 			<div className="header-bars"></div>
 			<div className="footer-main-container">
-				<h4>Copyright 2023 Raramainashe Wadaya</h4>
+				<p>Copyright 2023 Raramainashe Wadaya</p>
 
 				<div className="footer-secondary-container">
 					<FaRegHeart />
 					<div>
 						<Link to={"/create"}>
-							<h4>create</h4>
+							<p>create</p>
 						</Link>
 						<Link to={"/about"}>
-							<h4>about</h4>
+							<p>about</p>
 						</Link>
 						<Link to={"/blog"}>
-							<h4>blog</h4>
+							<p>blog</p>
 						</Link>
 					</div>
 				</div>

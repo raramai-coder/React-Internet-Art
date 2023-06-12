@@ -25,7 +25,7 @@ const About = ({ label, description }) => {
 About.defaultProps = {
 	label: "About",
 	description:
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum",
+		"This is an internet art website which aims to explore the role of AI generated art in society. The internet art has not yet been implemented and hence placeholders are in its place. But the styling and the implementation of the rest of the website is what stands to date.",
 };
 
 About.propTypes = {

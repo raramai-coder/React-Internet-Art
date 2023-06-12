@@ -12,13 +12,11 @@ const About = () => {
 			<div className="component-container about-page-container">
 				<BlogHeroCircle />
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.
+					This is an internet art website which aims to explore the role of AI
+					generated art in society. The internet art has not yet been
+					implemented and hence placeholders are in its place. But the styling
+					and the implementation of the rest of the website is what stands to
+					date.
 				</p>
 				<BlogHeroCircle />
 			</div>

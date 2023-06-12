@@ -8,6 +8,9 @@ import Design from "./pages/Design";
 import Create from "./pages/Create";
 import Blog from "./pages/Blog";
 import NoPage from "./pages/NoPage";
+import DevBlogs from "./pages/blogs/DevBlogs";
+import Essay from "./pages/blogs/Essay";
+import Intention from "./pages/blogs/Intention";
 
 function App() {
 	return (
@@ -21,6 +24,9 @@ function App() {
 				<Route path="design" element={<Design />} />
 				<Route path="create" element={<Create />} />
 				<Route path="*" element={<NoPage />} />
+				<Route path="devblogs" element={<DevBlogs />} />
+				<Route path="essay" element={<Essay />} />
+				<Route path="intention" element={<Intention />} />
 			</Routes>
 		</Router>
 	);

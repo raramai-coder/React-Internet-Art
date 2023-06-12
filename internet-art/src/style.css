@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
 
 :root {
@@ -35,7 +35,6 @@ a {
 	text-decoration: none;
 	color: var(--black);
 }
-
 h1 {
 	font-family: "Gloock", serif;
 	font-weight: 500;
@@ -44,6 +43,8 @@ h1 {
 
 h4 {
 	font-weight: 500;
+	font-size: 30px;
+	font-family: "Gloock", serif;
 }
 
 h3 {
@@ -66,6 +67,10 @@ h3 {
 .component-container {
 	padding-inline: 7.5vw;
 	margin-bottom: 10vh;
+}
+
+p {
+	font-weight: 300;
 }
 
 /* #region Nav Bar */
@@ -190,7 +195,7 @@ h3 {
 
 /* #endregion */
 
-/* #region Blog Hero */
+/* #region Blog */
 
 .blog-hero-circle-container-green {
 	/* width: 35vw;
@@ -233,6 +238,18 @@ h3 {
 .blog-hero {
 	text-align: center;
 	margin-bottom: 15vh;
+}
+
+.blog-text-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-inline: 10vw;
+	margin-bottom: 5vh;
+}
+
+.blog-link {
+	color: var(--primaryRed);
 }
 /* #endregion */
 
@@ -530,3 +547,16 @@ h3 {
 }
 
 /* #endregion */
+
+.wireframe-pictures {
+	width: 100%;
+}
+
+.wireframes-container {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	align-items: center;
+	gap: 20px;
+}

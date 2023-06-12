@@ -13,7 +13,7 @@ const NavBar = ({ pages }) => {
 							<FaRegHeart />
 						) : (
 							// <img src={require(page.link)}></img>
-							<h4 key={page.id}>{page.label}</h4>
+							<p key={page.id}>{page.label}</p>
 						)}
 					</Link>
 				))}

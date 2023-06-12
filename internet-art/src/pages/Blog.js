@@ -12,20 +12,33 @@ const Blog = () => {
 			<Header title="Blog"></Header>
 			<div className="tri-blog-card-holder">
 				<div>
-					<BlogCard />
-					<BlogCard />
-					<BlogCard />
+					<BlogCard
+						link="/devblogs"
+						title="Dev Blogs"
+						description="All Dev Blogs written for this course for all the weeks in throughout the semester."
+					/>
+					<BlogCard
+						link="/essay"
+						title="Internet Art Analysis Essay"
+						description="An internet art analysis of the internet artwork by
+						activist Aaron Swartz and artist Taryn Simon titled Image Atlas."
+					/>
+					<BlogCard
+						link="/intention"
+						title="Intention and Inspiration for Artwork"
+						description="A documentation of the intention of this website and its internet art as well as a collection of the sources of inspiration for its design."
+					/>
 				</div>
 				<BlogCircle />
 			</div>
-			<div className="tri-blog-card-holder">
+			{/* <div className="tri-blog-card-holder">
 				<BlogCircle />
 				<div>
 					<BlogCard original={"hidden"} reverse={"shown"} />
 					<BlogCard original={"hidden"} reverse={"shown"} />
 					<BlogCard original={"hidden"} reverse={"shown"} />
 				</div>
-			</div>
+			</div> */}
 			<ScrollToTop />
 			<Footer />
 		</div>
