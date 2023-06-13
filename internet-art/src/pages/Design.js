@@ -1,7 +1,18 @@
 import NavBar from "../components/NavBar";
 import Header from "../components/Header";
+import { useState } from "react";
 
 const Design = () => {
+	const [showWireframes, setShowWireframes] = useState(false);
+
+	const toggleWireframes = (event) => {
+		// 👇️ toggle shown state
+		setShowWireframes((current) => !current);
+
+		// 👇️ or simply set it to true
+		// setIsShown(true);
+	};
+
 	return (
 		<div>
 			<NavBar />
