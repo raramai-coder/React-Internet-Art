@@ -318,6 +318,9 @@ p {
 .create-image {
 	max-width: 100%;
 	max-height: 100%;
+	border-radius: 95%;
+	width: inherit;
+	height: inherit;
 }
 
 .create-ai-container {
