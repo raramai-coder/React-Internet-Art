@@ -12,6 +12,7 @@
 	--buttonColor: #f2b7b8;
 	--white: #fff;
 	--blue: #46c0d9;
+	--green: #62a71d;
 }
 
 * {
@@ -140,7 +141,6 @@ p {
 .ai-image-container {
 	width: 55vw;
 	height: max-content;
-	background-color: var(--orange);
 	border-radius: 95%;
 	padding: 15px 30px 15px 10px;
 	/* max-width: 45%;
@@ -152,15 +152,27 @@ p {
 	max-height: 100%;
 }
 
-.ai-artist-name {
+.ai-artist-name- {
 	top: -15vh;
 	position: relative;
 }
 
-.ai-country-name {
+.ai-artist-name-reversed {
+	top: -10vh;
+	position: relative;
+	right: 580px;
+}
+
+.ai-country-name-reversed {
 	position: relative;
 	top: 10vh;
-	left: 150px;
+	right: 580px;
+}
+
+.ai-country-name-reversed {
+	position: relative;
+	top: 10vh;
+	right: 580px;
 }
 /* #endregion */
 
@@ -674,12 +686,20 @@ p {
 	background-color: var(--darkGreen);
 }
 
+.lightGreen {
+	background-color: var(--green);
+}
+
 .mustard {
 	background-color: var(--mustard);
 }
 
 .yellow {
 	background-color: var(--yellow);
+}
+
+.orange {
+	background-color: var(--orange);
 }
 
 .dark-green {

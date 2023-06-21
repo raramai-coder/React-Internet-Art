@@ -12,8 +12,6 @@ import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
 import Button from "../components/Button";
 
-import AddTask from "../components/AddTask";
-
 const Home = () => {
 	const navigate = useNavigate();
 
