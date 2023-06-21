@@ -6,7 +6,7 @@ const Footer = () => {
 		<div className="footer-component">
 			<div className="header-bars"></div>
 			<div className="footer-main-container">
-				<p>Copyright 2023 Raramainashe Wadaya</p>
+				<p>Copyright &copy; 2023 Raramainashe Wadaya</p>
 
 				<div className="footer-secondary-container">
 					<FaRegHeart />

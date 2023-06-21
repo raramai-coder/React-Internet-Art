@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const BlogCardCircle = ({ color }) => {
 	return (
-		<div className={`blog-card-circle-container-${color}`}>
+		<div className={`blog-card-circle-container ${color}`}>
 			<img
 				src={require("../assets/Ellipse 3.png")}
 				alt=""

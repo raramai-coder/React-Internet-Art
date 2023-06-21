@@ -38,38 +38,44 @@ const Home = () => {
 	};
 
 	return (
-		<div className="container">
-			<NavBar />
-			<TriHeader />
-			<AIExhibit />
-			<Button onClickFunction={navigateToCreate} classID="to-create-btn" />
-			<About />
-			<Button
-				onClickFunction={navigateToAbout}
-				classID="to-about-btn"
-				label="Read More"
-			/>
-			<BlogHero />
-			<Button
-				onClickFunction={navigateToBlog}
-				classID="to-blog-btn"
-				label="Read More"
-			/>
-			<DesignHero />
-			<Button
-				onClickFunction={navigateToDesign}
-				classID="to-design-btn"
-				label="See More"
-			/>
-			<CreateHero />
-			<ArtistsHero />
-			<Button
-				onClickFunction={navigateToArtists}
-				classID="to-artists-btn"
-				label="See More"
-			/>
-			<ScrollToTop />
-			<Footer />
+		<div>
+			<header>
+				<NavBar />
+				<TriHeader />
+			</header>
+			<main className="container">
+				<AIExhibit />
+				<Button onClickFunction={navigateToCreate} classID="to-create-btn" />
+				<About />
+				<Button
+					onClickFunction={navigateToAbout}
+					classID="to-about-btn"
+					label="Read More"
+				/>
+				<BlogHero />
+				<Button
+					onClickFunction={navigateToBlog}
+					classID="to-blog-btn"
+					label="Read More"
+				/>
+				<DesignHero />
+				<Button
+					onClickFunction={navigateToDesign}
+					classID="to-design-btn"
+					label="See More"
+				/>
+				<CreateHero />
+				<ArtistsHero />
+				<Button
+					onClickFunction={navigateToArtists}
+					classID="to-artists-btn"
+					label="See More"
+				/>
+				<ScrollToTop />
+			</main>
+			<footer>
+				<Footer />
+			</footer>
 		</div>
 	);
 };
