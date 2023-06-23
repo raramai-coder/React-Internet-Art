@@ -1,6 +1,12 @@
 import PropTypes from "prop-types";
 
 const AIExhibit = ({ country, description, artist, color, reversed }) => {
+	if (reversed === "reversed") {
+		color = "lightGreen";
+	} else {
+		color = "orange";
+	}
+
 	return (
 		<section className={`ai-exhibit-container component-container ${reversed}`}>
 			<div className="ai-art-container">

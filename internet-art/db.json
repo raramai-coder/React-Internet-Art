@@ -1,4 +1,35 @@
 {
+	"aiart": [
+		{
+			"country": "Ghana",
+			"artist": "Nana Kwame",
+			"reversed": "",
+			"color": "",
+			"description": "Nana Kwame is a Ghanaian visual artist and activist who explores the intersections of identity, culture, and sexuality in his work. He uses photography, collage, and mixed media to create vibrant and expressive portraits of queer African people and communities. His work challenges the stereotypes and stigma that often surround queer identities in Africa, and celebrates the diversity and resilience of his subjects. Nana Kwame has exhibited his work in various galleries and festivals across Africa and Europe, and has received several awards and grants for his artistic and social impact. He is also the founder of Queer Art Collective, a platform that supports and showcases emerging queer artists from Africa and the diaspora. Nana Kwame is based in Accra, Ghana, where he lives with his partner and two cats."
+		},
+		{
+			"country": "Zimbabwe",
+			"artist": "Sasha Moyo",
+			"reversed": "reversed",
+			"color": "lightGreen",
+			"description": "Sasha Moyo is a Zimbabwean painter and poet who expresses her identity, emotions, and experiences as a transgender woman through her art. She uses acrylics, watercolors, and ink to create abstract and figurative paintings that reflect her inner world and her journey of self-discovery and acceptance. She also writes poetry that accompanies her paintings, adding another layer of meaning and expression to her work. Sasha Moyo has participated in several exhibitions and events that showcase the work of transgender and gender-nonconforming artists from Africa and the diaspora. She is also an advocate for the rights and visibility of transgender people in Zimbabwe and beyond. Sasha Moyo is based in Harare, Zimbabwe, where she lives with her girlfriend and two dogs."
+		},
+		{
+			"country": "Nigeria",
+			"artist": "Tayo Adekunle",
+			"reversed": "",
+			"color": "",
+			"description": "Tayo Adekunle is a Nigerian digital artist and animator who creates colorful and imaginative works that explore the themes of identity, culture, and fantasy. He uses digital tools and techniques to create stunning illustrations, animations, and comics that feature queer African characters and stories. His work is inspired by his own experiences as a queer person of color, as well as by African mythology, folklore, and pop culture. Tayo Adekunle has showcased his work in various online platforms and publications, and has collaborated with other queer African artists and activists. He is also the creator of Rainbow Republic, a webcomic series that follows the adventures of a group of queer superheroes in a futuristic African city. Tayo Adekunle is based in Lagos, Nigeria, where he works as a freelance artist and graphic designer."
+		},
+		{
+			"country": "South Africa",
+			"artist": "Zanele Muholi",
+			"reversed": "reversed",
+			"color": "lightGreen",
+			"description": "Zanele Muholi is a South African photographer and activist who documents and celebrates the lives of black lesbian, gay, bisexual, transgender, and intersex (LGBTI) people in South Africa and beyond. She uses her camera as a tool of resistance and empowerment, capturing the beauty, dignity, and diversity of her subjects. Her work also confronts the violence, discrimination, and marginalization that LGBTI people face in South Africa and elsewhere. Zanele Muholi has exhibited her work in numerous museums and galleries around the world, and has received several awards and honors for her artistic and human rights work. She is also the co-founder of Inkanyiso, a media platform that promotes visual activism and queer media. Zanele Muholi is based in Johannesburg, South Africa, where she lives with her partner and collaborator."
+		}
+	],
+
 	"posts": [
 		{
 			"id": 1,
