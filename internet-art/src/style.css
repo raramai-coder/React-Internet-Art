@@ -417,7 +417,7 @@ p {
 
 /* #endregion */
 
-/* #region Product */
+/* #region Product & Shop */
 
 .product-image-container {
 	background-color: var(--yellow);
@@ -450,6 +450,36 @@ p {
 	display: flex;
 	width: 100vw;
 	margin-top: 20px;
+}
+
+.shop-hero-image-container {
+	display: flex;
+	justify-content: center;
+}
+
+.shop-hero-outer-circle {
+	border-radius: 90%;
+	border: var(--black);
+	border-style: solid;
+	border-width: 2px;
+	width: 15vw;
+	height: 15vw;
+}
+
+.shop-hero-inner-circle {
+	border-radius: 90%;
+	border: var(--black);
+	border-style: solid;
+	border-width: 2px;
+	width: 15vw;
+	height: 15vw;
+	top: -40%;
+	position: relative;
+}
+
+.shop-hero-container {
+	margin-top: 10vh;
+	text-align: center;
 }
 /* #endregion */
 

@@ -11,6 +11,7 @@ import ArtistsHero from "../components/ArtistsHero";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
 import Button from "../components/Button";
+import ShopHero from "../components/ShopHero";
 
 const Home = () => {
 	const navigate = useNavigate();
@@ -33,6 +34,10 @@ const Home = () => {
 
 	const navigateToArtists = () => {
 		navigate("/artists");
+	};
+
+	const navigateToShop = () => {
+		navigate("/shop");
 	};
 
 	return (
@@ -68,6 +73,12 @@ const Home = () => {
 					onClickFunction={navigateToArtists}
 					classID="to-artists-btn"
 					label="See More"
+				/>
+				<ShopHero />
+				<Button
+					onClickFunction={navigateToShop}
+					classID="to-artists-btn"
+					label="Buy More"
 				/>
 				<ScrollToTop />
 			</main>
