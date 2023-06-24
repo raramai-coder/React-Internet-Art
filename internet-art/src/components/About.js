@@ -11,8 +11,9 @@ const About = ({ label, description }) => {
 					<h1 className="about-label">{label}</h1>
 					<div className="about-image-container">
 						<img
-							src={require("../assets/Ellipse 3.png")}
-							className="about-image"
+							src={require("../assets/ai images/ai-img-home-about-banner.png")}
+							//className="about-image"
+							className="create-image"
 							alt="AI generated artwork for about Page"
 						></img>
 					</div>

@@ -2,11 +2,11 @@ import BlogCardCircle from "./BlogCardCircle";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
-const BlogCard = ({ original, reverse, link, title, description }) => {
+const BlogCard = ({ original, reverse, link, title, description, image }) => {
 	return (
 		<Link className="component-container blog-card" to={link}>
 			<div className={original}>
-				<BlogCardCircle />
+				<BlogCardCircle image={image} />
 			</div>
 
 			<section className="blog-details">
@@ -16,7 +16,7 @@ const BlogCard = ({ original, reverse, link, title, description }) => {
 			</section>
 
 			<div className={reverse}>
-				<BlogCardCircle />
+				<BlogCardCircle image={image} />
 			</div>
 		</Link>
 	);

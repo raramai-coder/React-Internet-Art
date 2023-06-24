@@ -224,6 +224,7 @@ p {
 
 .blog-hero-image {
 	width: 100%;
+	border-radius: 95%;
 }
 
 .blog-circles-row {
