@@ -28,33 +28,5 @@
 			"color": "lightGreen",
 			"description": "Zanele Muholi is a South African photographer and activist who documents and celebrates the lives of black lesbian, gay, bisexual, transgender, and intersex (LGBTI) people in South Africa and beyond. She uses her camera as a tool of resistance and empowerment, capturing the beauty, dignity, and diversity of her subjects. Her work also confronts the violence, discrimination, and marginalization that LGBTI people face in South Africa and elsewhere. Zanele Muholi has exhibited her work in numerous museums and galleries around the world, and has received several awards and honors for her artistic and human rights work. She is also the co-founder of Inkanyiso, a media platform that promotes visual activism and queer media. Zanele Muholi is based in Johannesburg, South Africa, where she lives with her partner and collaborator."
 		}
-	],
-
-	"posts": [
-		{
-			"id": 1,
-			"title": "json-server",
-			"author": "typicode"
-		},
-		{
-			"id": 2,
-			"title": "json-server2",
-			"author": "typicode"
-		},
-		{
-			"id": 3,
-			"title": "json-server3",
-			"author": "typicode"
-		}
-	],
-	"comments": [
-		{
-			"id": 1,
-			"body": "some comment",
-			"postId": 1
-		}
-	],
-	"profile": {
-		"name": "typicode"
-	}
+	]
 }

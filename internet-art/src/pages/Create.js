@@ -6,6 +6,8 @@ import AIExhibit from "../components/AIExhibit";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
 
+import data from "../data.json";
+
 const Create = () => {
 	const [artDetails, setArtDetails] = useState([]);
 
@@ -14,7 +16,6 @@ const Create = () => {
 			const postsFromserver = await fetchPosts();
 			setArtDetails(postsFromserver);
 		};
-		getPosts();
 	}, []);
 
 	const fetchPosts = async () => {
@@ -31,7 +32,7 @@ const Create = () => {
 				<TriHeader />
 			</header>
 			<main>
-				{artDetails.map((artwork, index) => (
+				{data.aiart.map((artwork, index) => (
 					<AIExhibit
 						key={index}
 						country={artwork.country}
