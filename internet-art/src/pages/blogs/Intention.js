@@ -189,28 +189,28 @@ const Intention = () => {
 						<img
 							alt=""
 							src={require("../../assets/maxhosa1.webp")}
-							className="blog-hero-image"
+							className="blog-inspiration-image"
 						/>
 					</picture>
 					<picture>
 						<img
 							alt=""
 							src={require("../../assets/maxhosa2.webp")}
-							className="blog-hero-image"
+							className="blog-inspiration-image"
 						/>
 					</picture>
 					<picture>
 						<img
 							alt=""
 							src={require("../../assets/maxhosa3.webp")}
-							className="blog-hero-image"
+							className="blog-inspiration-image"
 						/>
 					</picture>
 					<picture>
 						<img
 							alt=""
 							src={require("../../assets/maxhosa4.webp")}
-							className="blog-hero-image"
+							className="blog-inspiration-image"
 						/>
 					</picture>
 				</div>
@@ -240,14 +240,14 @@ const Intention = () => {
 						<img
 							alt=""
 							src={require("../../assets/Picture1.png")}
-							className="blog-hero-image"
+							className="blog-inspiration-image"
 						/>
 					</picture>
 					<picture>
 						<img
 							alt=""
 							src={require("../../assets/Picture2.png")}
-							className="blog-hero-image"
+							className="blog-inspiration-image"
 						/>
 					</picture>
 				</div>
@@ -268,7 +268,7 @@ const Intention = () => {
 						<img
 							alt=""
 							src={require("../../assets/Picture3.png")}
-							className="blog-hero-image"
+							className="blog-inspiration-image"
 						/>
 					</picture>
 				</div>
@@ -290,7 +290,7 @@ const Intention = () => {
 						<img
 							alt=""
 							src={require("../../assets/Picture4.png")}
-							className="blog-hero-image"
+							className="blog-inspiration-image"
 						/>
 					</picture>
 				</div>

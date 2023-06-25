@@ -11,10 +11,12 @@ import NoPage from "./pages/NoPage";
 import DevBlogs from "./pages/blogs/DevBlogs";
 import Essay from "./pages/blogs/Essay";
 import Intention from "./pages/blogs/Intention";
+import ScrollToTopNavigate from "./components/ScrollToTopNavigate";
 
 function App() {
 	return (
 		<Router>
+			<ScrollToTopNavigate />
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="artists" element={<Artists />} />

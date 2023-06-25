@@ -9,7 +9,10 @@ const Footer = () => {
 				<p>Copyright &copy; 2023 Raramainashe Wadaya</p>
 
 				<div className="footer-secondary-container">
-					<FaRegHeart />
+					<Link to={"/"}>
+						<FaRegHeart />
+					</Link>
+
 					<div>
 						<Link to={"/create"}>
 							<p>create</p>
