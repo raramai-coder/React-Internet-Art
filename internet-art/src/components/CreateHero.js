@@ -59,7 +59,7 @@ const CreateHero = () => {
 						/>
 					) : (
 						<img
-							src={require("../assets/Ellipse 3.png")}
+							src={require("../assets/Ellipse-3.png")}
 							className="create-image"
 							alt="Placeholder for generated image."
 						></img>
