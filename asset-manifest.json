@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Internet-Art/static/css/main.c8e05dd5.css",
-    "main.js": "/React-Internet-Art/static/js/main.fe5663f7.js",
+    "main.js": "/React-Internet-Art/static/js/main.1b8cd379.js",
     "static/media/wireframe-6.png": "/React-Internet-Art/static/media/wireframe-6.3416150777c7e9951cbe.png",
     "static/media/wireframe1.png": "/React-Internet-Art/static/media/wireframe1.3416150777c7e9951cbe.png",
     "static/media/Home – 1.png": "/React-Internet-Art/static/media/Home – 1.24a1ee3b6b6d75285950.png",
@@ -83,10 +83,10 @@
     "static/media/julie-mehretu-3.jpg": "/React-Internet-Art/static/media/julie-mehretu-3.4e3bcb68bb2dd98b2c65.jpg",
     "index.html": "/React-Internet-Art/index.html",
     "main.c8e05dd5.css.map": "/React-Internet-Art/static/css/main.c8e05dd5.css.map",
-    "main.fe5663f7.js.map": "/React-Internet-Art/static/js/main.fe5663f7.js.map"
+    "main.1b8cd379.js.map": "/React-Internet-Art/static/js/main.1b8cd379.js.map"
   },
   "entrypoints": [
     "static/css/main.c8e05dd5.css",
-    "static/js/main.fe5663f7.js"
+    "static/js/main.1b8cd379.js"
   ]
 }
