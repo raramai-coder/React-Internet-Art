@@ -265,37 +265,69 @@ const Essay = () => {
 				<h4>References</h4>
 				<div className="header-bars"></div>
 
-				<p>
+				<a
+					href="https://www.journalstudiesanthropology.ro/en/internet-and-socialization-how-internet-use-influences-online-and-offline-relationships/a26/"
+					className="citation-links"
+					target="_blank"
+				>
 					Buonomo, I., Cipriani, I., Piperno, S., Saddi, I. and Fiorilli, C.
 					(2015). Internet and Socialization How Internet use influences online
 					and offline relationships. Anthropological Researches and Studies,
 					[online] 1(5), pp.3–10. Available at:
-					https://www.journalstudiesanthropology.ro/en/internet-and-socialization-how-internet-use-influences-online-and-offline-relationships/a26/.
-				</p>
-				<p>
+					https://www.journalstudiesanthropology.ro/en/internet-and-socialization-how-internet-use-influences-online-and-offline-relationships/a26/
+				</a>
+
+				<a
+					href="https://www.thoughtco.com/sociology-of-the-internet-4001182"
+					className="citation-links"
+					target="_blank"
+				>
 					Cole, N. (2019). From the Sociology of the Internet to Digital
 					Sociology: An Overview. [online] ThoughtCo. Available at:
-					https://www.thoughtco.com/sociology-of-the-internet-4001182.
-				</p>
-				<p>
+					https://www.thoughtco.com/sociology-of-the-internet-4001182
+				</a>
+
+				<a
+					href="https://anthology.rhizome.org/image-atlas"
+					className="citation-links"
+					target="_blank"
+				>
 					Huizer, E., Shah, S.I., Arroyo, J., Okorafor, U.N. and MacKinnon, R.
 					(2017). A Brave New World: How the Internet Affects Societies.
 					Internet Society. NET ART ANTHOLOGY: Image Atlas. (2016). NET ART
 					ANTHOLOGY: Image Atlas. [online] Available at:
 					https://anthology.rhizome.org/image-atlas [Accessed 1 May 2023].
-				</p>
-				<p>
+				</a>
+
+				<a
+					href="https://www.yourarticlelibrary.com/sociology/social-processes-the-meaning-types-characteristics-of-social-processes/8545"
+					className="citation-links"
+					target="_blank"
+				>
 					Samiksha, S. (2013). Social Processes: The Meaning, Types,
 					Characteristics of Social Processes. [online] Your Article Library.
 					Available at:
-					https://www.yourarticlelibrary.com/sociology/social-processes-the-meaning-types-characteristics-of-social-processes/8545.
-				</p>
-				<p>
+					https://www.yourarticlelibrary.com/sociology/social-processes-the-meaning-types-characteristics-of-social-processes/8545
+				</a>
+
+				<a
+					href="https://tyonote.com/social_process/"
+					className="citation-links"
+					target="_blank"
+				>
 					tyonote.com. (n.d.). What is Social Process? Definition, Meaning, and
 					Types. [online] Available at: https://tyonote.com/social_process/
-					[Accessed 1 May 2023]. www.artsy.net. (n.d.). Net Art | Artsy.
-					[online] Available at: https://www.artsy.net/gene/net-art.
-				</p>
+					[Accessed 1 May 2023].
+				</a>
+
+				<a
+					href="https://www.artsy.net/gene/net-art"
+					className="citation-links"
+					target="_blank"
+				>
+					www.artsy.net. (n.d.). Net Art | Artsy. [online] Available at:
+					https://www.artsy.net/gene/net-art
+				</a>
 			</div>
 
 			<ScrollToTop />

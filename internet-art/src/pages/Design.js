@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import Header from "../components/Header";
 import Button from "../components/Button";
+import DesignButtons from "../components/DesignButtons";
 import { useState } from "react";
 
 const Design = () => {
@@ -8,22 +9,38 @@ const Design = () => {
 	const [showStyleGuide, setShowStyleGuide] = useState(false);
 	const [showInspiration, setShowInspiration] = useState(false);
 
+	const [wireframesToggle, setWireframesToggle] = useState("toggled");
+	const [styleGuideToggle, setStyleGuideToggle] = useState("");
+	const [inspirationToggle, setInspirationToggle] = useState("");
+
 	const toggleWireframes = () => {
 		setShowWireframes(!showWireframes);
 		setShowStyleGuide(false);
 		setShowInspiration(false);
+
+		setInspirationToggle("");
+		setStyleGuideToggle("");
+		setWireframesToggle("toggled");
 	};
 
 	const toggleStyleGuide = () => {
 		setShowStyleGuide(!showStyleGuide);
 		setShowWireframes(false);
 		setShowInspiration(false);
+
+		setInspirationToggle("");
+		setStyleGuideToggle("toggled");
+		setWireframesToggle("");
 	};
 
 	const toggleInspiration = () => {
 		setShowInspiration(!showInspiration);
 		setShowWireframes(false);
 		setShowStyleGuide(false);
+
+		setInspirationToggle("toggled");
+		setStyleGuideToggle("");
+		setWireframesToggle("");
 	};
 
 	return (
@@ -31,19 +48,30 @@ const Design = () => {
 			<NavBar />
 			<Header title="Design" />
 
-			<div>
-				<Button label="Wireframes" onClickFunction={toggleWireframes}></Button>
-				<Button label="Style Guide" onClickFunction={toggleStyleGuide}></Button>
-				<Button
-					label="Inspiration"
+			<div className="design-buttons-holder">
+				<DesignButtons
+					onClickFunction={toggleWireframes}
+					title={"Wireframes"}
+					toggled={wireframesToggle}
+				/>
+				<DesignButtons
+					onClickFunction={toggleStyleGuide}
+					title={"Style Guide"}
+					toggled={styleGuideToggle}
+					image={"Loading Page-2"}
+				/>
+				<DesignButtons
 					onClickFunction={toggleInspiration}
-				></Button>
+					title={"Inspiration"}
+					toggled={inspirationToggle}
+					image={"Picture2"}
+				/>
 			</div>
 
 			{showWireframes && (
 				<div>
-					<h4>Wireframes</h4>
-					<div className="header-bars"></div>
+					{/* <h4>Wireframes</h4>
+					<div className="header-bars"></div> */}
 
 					<div className="wireframes-container">
 						<div className="image-description-container">
@@ -402,8 +430,8 @@ const Design = () => {
 
 			{showStyleGuide && (
 				<div>
-					<h4>Style Guide</h4>
-					<div className="header-bars"></div>
+					{/* <h4>Style Guide</h4>
+					<div className="header-bars"></div> */}
 
 					<div className="wireframes-container">
 						<div className="image-description-container">
@@ -551,7 +579,7 @@ const Design = () => {
 			{showInspiration && (
 				<div>
 					<h4>Inspiration</h4>
-					<div className="header-bars"></div>{" "}
+					<div className="header-bars"></div>
 				</div>
 			)}
 		</div>
