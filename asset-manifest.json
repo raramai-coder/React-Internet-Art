@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Internet-Art/static/css/main.bfcb32e7.css",
-    "main.js": "/React-Internet-Art/static/js/main.b26326e5.js",
+    "main.css": "/React-Internet-Art/static/css/main.332e036c.css",
+    "main.js": "/React-Internet-Art/static/js/main.f08a56d5.js",
     "static/media/wireframe1.png": "/React-Internet-Art/static/media/wireframe1.3416150777c7e9951cbe.png",
     "static/media/Picture2.png": "/React-Internet-Art/static/media/Picture2.24c6e00085bc604fd621.png",
     "static/media/wireframe3.png": "/React-Internet-Art/static/media/wireframe3.17155e3cb00cdbdd3853.png",
@@ -61,11 +61,11 @@
     "static/media/julie-mehretu-1.jpg": "/React-Internet-Art/static/media/julie-mehretu-1.b369e6967c3f8798ba43.jpg",
     "static/media/julie-mehretu-3.jpg": "/React-Internet-Art/static/media/julie-mehretu-3.4e3bcb68bb2dd98b2c65.jpg",
     "index.html": "/React-Internet-Art/index.html",
-    "main.bfcb32e7.css.map": "/React-Internet-Art/static/css/main.bfcb32e7.css.map",
-    "main.b26326e5.js.map": "/React-Internet-Art/static/js/main.b26326e5.js.map"
+    "main.332e036c.css.map": "/React-Internet-Art/static/css/main.332e036c.css.map",
+    "main.f08a56d5.js.map": "/React-Internet-Art/static/js/main.f08a56d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfcb32e7.css",
-    "static/js/main.b26326e5.js"
+    "static/css/main.332e036c.css",
+    "static/js/main.f08a56d5.js"
   ]
 }
