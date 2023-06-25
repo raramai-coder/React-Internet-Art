@@ -22,7 +22,7 @@ const TriHeader = (props) => {
 
 TriHeader.defaultProps = {
 	topTitle: "Celebrating",
-	middleTitle: "Quuer African",
+	middleTitle: "Queer African",
 	bottomTitle: "Art",
 };
 
