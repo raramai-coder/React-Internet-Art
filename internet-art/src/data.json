@@ -28,5 +28,23 @@
 			"color": "lightGreen",
 			"description": "Zanele Muholi is a South African photographer and activist who documents and celebrates the lives of black lesbian, gay, bisexual, transgender, and intersex (LGBTI) people in South Africa and beyond. She uses her camera as a tool of resistance and empowerment, capturing the beauty, dignity, and diversity of her subjects. Her work also confronts the violence, discrimination, and marginalization that LGBTI people face in South Africa and elsewhere. Zanele Muholi has exhibited her work in numerous museums and galleries around the world, and has received several awards and honors for her artistic and human rights work. She is also the co-founder of Inkanyiso, a media platform that promotes visual activism and queer media. Zanele Muholi is based in Johannesburg, South Africa, where she lives with her partner and collaborator."
 		}
+	],
+
+	"products": [
+		{
+			"title": "Coffee Mug",
+			"image": "product-cup",
+			"description": "This coffee mug is a unique piece of art that features the work of a queer African artist. The artwork is inspired by the artist’s personal experiences and cultural heritage, making it a one-of-a-kind piece that is sure to stand out. The mug is made of high-quality ceramic and is perfect for enjoying your favorite hot beverage. It is dishwasher and microwave safe, making it easy to clean and use every day. This mug is not only functional but also a beautiful work of art that celebrates diversity and inclusivity."
+		},
+		{
+			"title": "Cotton T-shirt",
+			"image": "product-tshirt",
+			"description": "This t-shirt is made of high-quality Egyptian cotton and features the work of a queer African artist. The artwork is inspired by the artist’s personal experiences and cultural heritage, making it a one-of-a-kind piece that is sure to stand out. The t-shirt is available in various sizes and colors, so you can choose the one that best suits your style. It is also machine washable, making it easy to care for and wear every day. This t-shirt is not only comfortable but also a beautiful work of art that celebrates diversity and inclusivity."
+		},
+		{
+			"title": "Tote Bag",
+			"image": "ptoduct-tote-bag",
+			"description": "This tote bag is a unique piece of art that features the work of a queer African artist. The artwork is inspired by the artist’s personal experiences and cultural heritage, making it a one-of-a-kind piece that is sure to stand out. The bag is made of high-quality materials and is perfect for carrying your everyday essentials. It is also available in various sizes and colors, so you can choose the one that best suits your style. This tote bag is not only functional but also a beautiful work of art that celebrates diversity and inclusivity."
+		}
 	]
 }
