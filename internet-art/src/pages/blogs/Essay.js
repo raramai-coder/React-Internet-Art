@@ -269,6 +269,7 @@ const Essay = () => {
 					href="https://www.journalstudiesanthropology.ro/en/internet-and-socialization-how-internet-use-influences-online-and-offline-relationships/a26/"
 					className="citation-links"
 					target="_blank"
+					rel="noreferrer"
 				>
 					Buonomo, I., Cipriani, I., Piperno, S., Saddi, I. and Fiorilli, C.
 					(2015). Internet and Socialization How Internet use influences online
@@ -281,6 +282,7 @@ const Essay = () => {
 					href="https://www.thoughtco.com/sociology-of-the-internet-4001182"
 					className="citation-links"
 					target="_blank"
+					rel="noreferrer"
 				>
 					Cole, N. (2019). From the Sociology of the Internet to Digital
 					Sociology: An Overview. [online] ThoughtCo. Available at:
@@ -291,6 +293,7 @@ const Essay = () => {
 					href="https://anthology.rhizome.org/image-atlas"
 					className="citation-links"
 					target="_blank"
+					rel="noreferrer"
 				>
 					Huizer, E., Shah, S.I., Arroyo, J., Okorafor, U.N. and MacKinnon, R.
 					(2017). A Brave New World: How the Internet Affects Societies.
@@ -303,6 +306,7 @@ const Essay = () => {
 					href="https://www.yourarticlelibrary.com/sociology/social-processes-the-meaning-types-characteristics-of-social-processes/8545"
 					className="citation-links"
 					target="_blank"
+					rel="noreferrer"
 				>
 					Samiksha, S. (2013). Social Processes: The Meaning, Types,
 					Characteristics of Social Processes. [online] Your Article Library.
@@ -314,6 +318,7 @@ const Essay = () => {
 					href="https://tyonote.com/social_process/"
 					className="citation-links"
 					target="_blank"
+					rel="noreferrer"
 				>
 					tyonote.com. (n.d.). What is Social Process? Definition, Meaning, and
 					Types. [online] Available at: https://tyonote.com/social_process/
@@ -324,6 +329,7 @@ const Essay = () => {
 					href="https://www.artsy.net/gene/net-art"
 					className="citation-links"
 					target="_blank"
+					rel="noreferrer"
 				>
 					www.artsy.net. (n.d.). Net Art | Artsy. [online] Available at:
 					https://www.artsy.net/gene/net-art
