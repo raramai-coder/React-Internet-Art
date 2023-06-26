@@ -113,7 +113,7 @@ const Intention = () => {
 				</p>
 
 				<div>
-					{/* <picture>
+					<picture>
 						<img
 							alt=""
 							src={require("../../assets/pattern1.jpg")}
@@ -126,14 +126,14 @@ const Intention = () => {
 							src={require("../../assets/pattern2.webp")}
 							className="blog-hero-image"
 						/>
-					</picture> */}
-					{/* <picture>
+					</picture>
+					<picture>
 						<img
 							alt=""
 							src={require("../../assets/pattern3.jfif")}
 							className="blog-hero-image"
 						/>
-					</picture> */}
+					</picture>
 				</div>
 
 				<p>
@@ -150,13 +150,13 @@ const Intention = () => {
 				</p>
 				<p>These are the patterns and the background.</p>
 				<div>
-					{/* <picture>
+					<picture>
 						<img
 							alt=""
 							src={require("../../assets/Illustrations Patterns.png")}
 							className="blog-hero-image"
 						/>
-					</picture> */}
+					</picture>
 				</div>
 
 				<p>
@@ -164,13 +164,13 @@ const Intention = () => {
 					background so they can more easily
 				</p>
 				<div>
-					{/* <picture>
+					<picture>
 						<img
 							alt=""
 							src={require("../../assets/Illustrations Patterns 1.png")}
 							className="blog-hero-image"
 						/>
-					</picture> */}
+					</picture>
 				</div>
 
 				<p>
@@ -185,7 +185,7 @@ const Intention = () => {
 				</p>
 
 				<div>
-					{/* <picture>
+					<picture>
 						<img
 							alt=""
 							src={require("../../assets/maxhosa1.webp")}
@@ -212,7 +212,7 @@ const Intention = () => {
 							src={require("../../assets/maxhosa4.webp")}
 							className="blog-inspiration-image"
 						/>
-					</picture> */}
+					</picture>
 				</div>
 
 				<p>
@@ -236,7 +236,7 @@ const Intention = () => {
 				</p>
 
 				<div>
-					{/* <picture>
+					<picture>
 						<img
 							alt=""
 							src={require("../../assets/Picture1.png")}
@@ -249,7 +249,7 @@ const Intention = () => {
 							src={require("../../assets/Picture2.png")}
 							className="blog-inspiration-image"
 						/>
-					</picture> */}
+					</picture>
 				</div>
 
 				<p>
@@ -264,13 +264,13 @@ const Intention = () => {
 				</p>
 
 				<div>
-					{/* <picture>
+					<picture>
 						<img
 							alt=""
 							src={require("../../assets/Picture3.png")}
 							className="blog-inspiration-image"
 						/>
-					</picture> */}
+					</picture>
 				</div>
 
 				<p>
@@ -286,13 +286,13 @@ const Intention = () => {
 				</p>
 
 				<div>
-					{/* <picture>
+					<picture>
 						<img
 							alt=""
 							src={require("../../assets/Picture4.png")}
 							className="blog-inspiration-image"
 						/>
-					</picture> */}
+					</picture>
 				</div>
 
 				<p>

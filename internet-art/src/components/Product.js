@@ -7,9 +7,9 @@ const Product = ({ image, title, description }) => {
 	return (
 		<div className="component-container">
 			<div className="product-image-container">
-				{/* <picture>
+				<picture>
 					<img src={imageUrl} alt="Shop product" className="product-image" />
-				</picture> */}
+				</picture>
 			</div>
 			<div className="product-details-container">
 				<h4>{title}</h4>

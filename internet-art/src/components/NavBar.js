@@ -12,7 +12,6 @@ const NavBar = ({ pages }) => {
 						{page.icon != null ? (
 							<FaRegHeart />
 						) : (
-							// <img src={require(page.link)}></img>
 							<p key={page.id}>{page.label}</p>
 						)}
 					</Link>

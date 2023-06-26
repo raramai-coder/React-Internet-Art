@@ -5,11 +5,11 @@ const BlogHeroCircle = ({ color, image }) => {
 
 	return (
 		<div className={`about-page-circle-container ${color}`}>
-			{/* <img
+			<img
 				src={imageUrl}
 				alt="AI Generated artwork"
 				className="blog-hero-image"
-			/> */}
+			/>
 		</div>
 	);
 };

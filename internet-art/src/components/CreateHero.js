@@ -51,19 +51,19 @@ const CreateHero = () => {
 			<h1 className="create-h1">Create</h1>
 			<div className="create-ai-container">
 				<div className="create-image-container">
-					{/* {result.length > 0 ? (
-						// <img
-						// 	src={result}
-						// 	className="create-image"
-						// 	alt="AI Generated artwork."
-						// />
+					{result.length > 0 ? (
+						<img
+							src={result}
+							className="create-image"
+							alt="AI Generated artwork."
+						/>
 					) : (
-						// <img
-						// 	src={require("../assets/Ellipse-3.png")}
-						// 	className="create-image"
-						// 	alt="Placeholder for generated image."
-						// ></img>
-					)} */}
+						<img
+							src={require("../assets/Ellipse-3.png")}
+							className="create-image"
+							alt="Placeholder for generated image."
+						></img>
+					)}
 				</div>
 
 				<div>
