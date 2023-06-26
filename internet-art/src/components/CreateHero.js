@@ -8,7 +8,6 @@ const CreateHero = () => {
 	const [result, setResult] = useState("");
 	const [loading, setLoading] = useState(false);
 
-	console.log(process.env.REACT_APP_OPEN_API_KEY);
 	const configuration = new Configuration({
 		apiKey: process.env.REACT_APP_OPEN_API_KEY,
 	});
