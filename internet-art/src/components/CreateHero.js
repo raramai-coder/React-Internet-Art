@@ -1,5 +1,6 @@
-import { useState } from "react";
 import { Configuration, OpenAIApi } from "openai";
+import { useState } from "react";
+
 import Button from "./Button";
 
 const CreateHero = () => {
@@ -7,18 +8,8 @@ const CreateHero = () => {
 	const [result, setResult] = useState("");
 	const [loading, setLoading] = useState(false);
 
-	// const key1 = "sk-8KhrZy";
-	// const key2 = "E8N2CA5";
-	// const key3 = "wRkRM1a";
-	// const key4 = "T3BlbkFJ";
-	// const key5 = "EyWcZSb4sj";
-	// const key6 = "4z5YB2khAg";
-
-	// const finalKey = key1 + key2 + key3 + key4 + key5 + key6;
-
 	const configuration = new Configuration({
 		apiKey: process.env.REACT_APP_OPEN_API_KEY,
-		//apiKey: finalKey,
 	});
 
 	const openai = new OpenAIApi(configuration);
@@ -30,7 +21,7 @@ const CreateHero = () => {
 			const res = await openai.createImage({
 				prompt: prompt,
 				n: 1,
-				size: "512x512",
+				size: "256x256",
 			});
 
 			console.log(res.data.data[0].url);

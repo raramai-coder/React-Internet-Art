@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Configuration, OpenAIApi } from "openai";
 
 import TriHeader from "../components/TriHeader";
 import NavBar from "../components/NavBar";
@@ -9,21 +10,81 @@ import ScrollToTop from "../components/ScrollToTop";
 import data from "../data.json";
 
 const Create = () => {
-	const [artDetails, setArtDetails] = useState([]);
+	const [exhibitDetails, setExhibitDetails] = useState([]);
+	const [loading, setLoading] = useState(false);
 
 	useEffect(() => {
-		const getPosts = async () => {
-			const postsFromserver = await fetchPosts();
-			setArtDetails(postsFromserver);
-		};
-	}, []);
+		const configuration = new Configuration({
+			apiKey: process.env.REACT_APP_OPEN_API_KEY,
+		});
 
-	const fetchPosts = async () => {
-		const result = await fetch("http://localhost:5000/aiart");
-		const data = await result.json();
-		console.log(data);
-		return data;
-	};
+		const openai = new OpenAIApi(configuration);
+
+		const generateImages = async () => {
+			setLoading(true);
+			const images = [];
+			for (let index = 0; index < 4; index++) {
+				const imageUrl = await generateSingleImage();
+				images.push(imageUrl);
+			}
+
+			console.log("Images in generateImage :", images);
+
+			if (images.length > 0) {
+				//console.log("art images set correctly");
+				setExhibitData(images);
+			} else {
+				console.log("art images not set correctly");
+				setLoading(false);
+				//await generateImages();
+			}
+		};
+
+		const setExhibitData = (imagesGenerated) => {
+			const details = [];
+			var nextId = 0;
+			imagesGenerated.forEach((image) => {
+				details.push({
+					id: nextId,
+					imageURl: image,
+					country: data.aiart[nextId].country,
+					description: data.aiart[nextId].description,
+					artist: data.aiart[nextId].artist,
+					reversed: data.aiart[nextId].reversed,
+				});
+
+				nextId++;
+			});
+			console.log(details);
+			setExhibitDetails(details);
+			setLoading(false);
+		};
+
+		const generateSingleImage = async () => {
+			try {
+				const res = await openai.createImage({
+					prompt: "Queer African Art",
+					n: 1,
+					size: "256x256",
+				});
+				if (res.data !== null) {
+					// setResult(res.data.data[0].url);
+					// return result;
+					return res.data.data[0].url;
+				} else {
+					console.log("No data returned");
+					return null;
+				}
+			} catch (error) {
+				setLoading(false);
+				console.error(
+					`Error generating image: ${error.response.data.error.message}`
+				);
+			}
+		};
+
+		generateImages();
+	}, []);
 
 	return (
 		<div>
@@ -32,20 +93,23 @@ const Create = () => {
 				<TriHeader />
 			</header>
 			<main>
-				{data.aiart.map((artwork, index) => (
-					<AIExhibit
-						key={index}
-						country={artwork.country}
-						description={artwork.description}
-						artist={artwork.artist}
-						reversed={artwork.reversed}
-					/>
-				))}
+				{!loading ? (
+					exhibitDetails.map((artwork) => {
+						return (
+							<AIExhibit
+								key={artwork.id}
+								image={artwork.imageURl}
+								country={artwork.country}
+								description={artwork.description}
+								artist={artwork.artist}
+								reversed={artwork.reversed}
+							/>
+						);
+					})
+				) : (
+					<div>Images are loading ...</div>
+				)}
 
-				{/* <AIExhibit />
-				<AIExhibit color="lightGreen" reversed="reversed" />
-				<AIExhibit />
-				<AIExhibit color="lightGreen" reversed="reversed" /> */}
 				<ScrollToTop />
 			</main>
 			<footer>
