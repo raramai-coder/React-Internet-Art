@@ -12,12 +12,12 @@ const AIExhibit = ({ country, description, artist, color, reversed }) => {
 			<div className="ai-art-container">
 				<h1 className={`ai-country-name-${reversed}`}>{country}</h1>
 				<div className={`ai-image-container ${color}`}>
-					<img
+					{/* <img
 						src={require("../assets/ai images/ai-img-home-art-banner.png")}
 						//className="ai-image"
 						className="create-image"
 						alt="AI Generated artwork"
-					></img>
+					></img> */}
 				</div>
 
 				<h3 className={`ai-artist-name-${reversed}`}>{artist}</h3>

@@ -9,7 +9,7 @@ const DesignButtons = ({ title, onClickFunction, toggled, image }) => {
 			className={`design-button-container ${toggled}`}
 			onClick={onClickFunction}
 		>
-			<img src={imageUrl} alt="" className="design-button-image" />
+			{/* <img src={imageUrl} alt="" className="design-button-image" /> */}
 			<h4 className="design-button-text">{title}</h4>
 		</div>
 	);

@@ -5,7 +5,7 @@ const AboutHeroCircle = ({ color, image }) => {
 
 	return (
 		<div className={`about-hero-circle-container-${color}`}>
-			<img src={imageUrl} alt="" className="blog-hero-image" />
+			{/* <img src={imageUrl} alt="" className="blog-hero-image" /> */}
 		</div>
 	);
 };

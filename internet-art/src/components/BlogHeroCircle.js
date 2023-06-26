@@ -21,11 +21,11 @@ const BlogHeroCircle = ({ color, image, link, title }) => {
 			onMouseEnter={handleMouseEnter}
 			onMouseLeave={handleMouseExit}
 		>
-			<img
+			{/* <img
 				src={imageUrl}
 				alt="AI Generated artwork"
 				className="blog-hero-image"
-			/>
+			/> */}
 			{isHover && <p>{title}</p>}
 		</Link>
 	);

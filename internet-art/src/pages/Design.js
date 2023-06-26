@@ -75,13 +75,13 @@ const Design = () => {
 
 					<div className="wireframes-container">
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/wireframe1.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 							<div className="description-container">
 								<h4>Home Page Wireframe</h4>
 								<div className="header-bars"></div>
@@ -153,13 +153,13 @@ const Design = () => {
 						</div>
 
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/wireframe2.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 							<div className="description-container">
 								<h4>AI Art Page Wireframe</h4>
 								<div className="header-bars"></div>
@@ -200,13 +200,13 @@ const Design = () => {
 						</div>
 
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/wireframe3.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 
 							<div className="description-container">
 								<h4>Artists Page Wireframe</h4>
@@ -243,13 +243,13 @@ const Design = () => {
 						</div>
 
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/wireframe4.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 
 							<div className="description-container">
 								<h4>Shop Page Wireframe</h4>
@@ -273,13 +273,13 @@ const Design = () => {
 						</div>
 
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/wireframe5.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 
 							<div className="description-container">
 								<h4>Blog Post Wireframe</h4>
@@ -295,13 +295,13 @@ const Design = () => {
 						</div>
 
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/wireframe6.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 
 							<div className="description-container">
 								<h4>Blog Page Wireframe</h4>
@@ -330,13 +330,13 @@ const Design = () => {
 						</div>
 
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/wireframe7.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 
 							<div className="description-container">
 								<h4>About Page Wireframe</h4>
@@ -355,13 +355,13 @@ const Design = () => {
 						</div>
 
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/wireframe8.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 
 							<div className="description-container">
 								<h4>Create Page Wireframe</h4>
@@ -389,13 +389,13 @@ const Design = () => {
 						</div>
 
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/wireframe9.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 
 							<div className="description-container">
 								<h4>Design Page Wireframe</h4>
@@ -435,13 +435,13 @@ const Design = () => {
 
 					<div className="wireframes-container">
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/styleguide1.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 
 							<div className="description-container">
 								<h4>Site Components</h4>
@@ -474,13 +474,13 @@ const Design = () => {
 						</div>
 
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/styleguide2.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 
 							<div className="description-container">
 								<h4>Artwork Frames</h4>
@@ -507,13 +507,13 @@ const Design = () => {
 						</div>
 
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/sttyleguide3.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 
 							<div className="description-container">
 								<h4>Colour Palette</h4>
@@ -548,13 +548,13 @@ const Design = () => {
 						</div>
 
 						<div className="image-description-container">
-							<picture>
+							{/* <picture>
 								<img
 									alt=""
 									src={require("../assets/styleguide4.png")}
 									className="wireframe-pictures"
 								/>
-							</picture>
+							</picture> */}
 
 							<div className="description-container">
 								<h4>Headers</h4>

@@ -10,12 +10,12 @@ const About = ({ label, description }) => {
 				<div className="about-container">
 					<h1 className="about-label">{label}</h1>
 					<div className="about-image-container">
-						<img
+						{/* <img
 							src={require("../assets/ai images/ai-img-home-about-banner.png")}
 							//className="about-image"
 							className="create-image"
 							alt="AI generated artwork for about Page"
-						></img>
+						></img> */}
 					</div>
 				</div>
 			</section>
