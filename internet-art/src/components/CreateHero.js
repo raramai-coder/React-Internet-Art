@@ -8,6 +8,7 @@ const CreateHero = () => {
 	const [result, setResult] = useState("");
 	const [loading, setLoading] = useState(false);
 
+	console.log(process.env.REACT_APP_OPEN_API_KEY);
 	const configuration = new Configuration({
 		apiKey: process.env.REACT_APP_OPEN_API_KEY,
 	});
@@ -52,7 +53,7 @@ const CreateHero = () => {
 						<img
 							src={require("../assets/Ellipse-3.png")}
 							className="create-image"
-							alt="Placeholder for generated image."
+							alt="Placeholder for generated artwork."
 						></img>
 					)}
 				</div>

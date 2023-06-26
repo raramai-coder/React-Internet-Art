@@ -14,8 +14,6 @@ const AIExhibit = ({
 		color = "orange";
 	}
 
-	console.log(image);
-
 	return (
 		<section className={`ai-exhibit-container component-container ${reversed}`}>
 			<div className="ai-art-container">
