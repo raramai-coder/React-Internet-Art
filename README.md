@@ -18,8 +18,7 @@ At its core, this artwork underscores a fundamental difference: AI cannot be tru
 
 
 ## Technologies Used
-React: JavaScript library for building the user interface.
-JavaScript/TypeScript: Core programming languages for logic and interactivity.
-CSS/SCSS: For styling and creating visually engaging designs.
-OpenAI API: For generating AI-based artwork to be displayed on the site.
-Other Libraries: (e.g., libraries for animations or interactive elements, to be specified as implemented).
+- React: JavaScript library for building the user interface.
+- JavaScript/TypeScript: Core programming languages for logic and interactivity.
+- CSS/SCSS: For styling and creating visually engaging designs.
+- OpenAI API: For generating AI-based artwork to be displayed on the site.
