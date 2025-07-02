@@ -1,5 +1,5 @@
 # Welcome to the React-Internet-Art repository! 
-This project is a thought-provoking internet art piece built with React that explores the intersection of AI-generated content and human creativity, with a specific focus on queer African art. Below, you'll find an overview of the project, setup instructions, usage details, and ways to contribute.
+This [internet art website](https://raramai-coder.github.io/React-Internet-Art/) is a thought-provoking internet art piece built with React that explores the intersection of AI-generated content and human creativity, with a specific focus on queer African art. Below, you'll find an overview of the project, setup instructions, usage details, and ways to contribute.
 
 ![Screenshot_2-7-2025_211918_localhost](https://github.com/user-attachments/assets/ec3b2f2e-388c-4668-b4e0-bc36d0841cb2)
 
