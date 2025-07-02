@@ -22,3 +22,6 @@ At its core, this artwork underscores a fundamental difference: AI cannot be tru
 - JavaScript/TypeScript: Core programming languages for logic and interactivity.
 - CSS/SCSS: For styling and creating visually engaging designs.
 - OpenAI API: For generating AI-based artwork to be displayed on the site.
+
+  
+![Screenshot_2-7-2025_213813_localhost](https://github.com/user-attachments/assets/588fb4bf-5629-4323-9a3a-e01eb3c39d02)
